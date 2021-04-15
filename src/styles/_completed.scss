@@ -1,0 +1,26 @@
+.completedScore {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+}
+.scoreLabel {
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 21px;
+    padding: 1px 10px 0;
+}
+
+.green {
+    background-color: #55CD97;
+}
+.yellow {
+    background-color: #FDBF4C;
+}
+.red {
+    background-color: #FF5C4C;
+}

@@ -1,0 +1,17 @@
+@import "header";
+@import "sidebar";
+@import "userTemplate";
+@import "courses";
+@import "progress";
+@import "labels";
+@import "inbox";
+@import "events";
+@import "completed";
+
+.pointer {
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}

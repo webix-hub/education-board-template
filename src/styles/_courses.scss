@@ -1,0 +1,82 @@
+.coursesTable {
+    .webix_first {
+        .webix_cell {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}
+.coursesItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: normal;
+    height: 100%;
+}
+.coursesTitle {
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+.coursesPeriod {
+    color: #94A1B3;
+    font-size: 12px;
+    line-height: 16px;
+}
+.coursesRating {
+    margin-bottom: 8px;
+}
+.starFull {
+    color: #FDBF4C;
+}
+.starEmpty {
+    color: #DADEE0;
+}
+.completeCol {
+    .webix_cell {
+        display: flex;
+        align-items: center;
+    }
+}
+.completeWrapp {
+    width: 80px;
+    height: 8px;
+    border-radius: 20px;
+    background: #DFE2E6;
+    position: relative;
+    overflow: hidden;
+}
+.completeBar {
+    background: #1CA1C1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+.completeVal {
+    font-weight: 500;
+    line-height: 20px;
+    margin-left: 12px;
+}
+.buttonCol {
+    .webix_cell {
+        display: flex;
+        align-items: center;
+    }
+    .webix_button {
+        background-color: #F4F5F9;
+        color: #1CA1C1;
+        height: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        &:hover {
+            background-color: #DFE2E6;
+        }
+    }
+}

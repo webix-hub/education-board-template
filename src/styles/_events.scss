@@ -1,0 +1,20 @@
+.eventLabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: normal;
+    height: 100%;
+}
+.eventDate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    line-height: 20px;
+    height: 100%;
+}
+.eventTime {
+    line-height: 16px;
+    font-size: 12px;
+    color: #94A1B3;
+}
